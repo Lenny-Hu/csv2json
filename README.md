@@ -1,9 +1,7 @@
 # csv2json
----
 csv2json，Support GBK、 UTF8 format CSV conversion to JSON
 
 ## usage
----
 ```
 csv2json -h // display help
 
