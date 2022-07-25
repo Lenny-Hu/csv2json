@@ -1,5 +1,5 @@
 {
-  "name": "csv2json",
+  "name": "csv2json-tool",
   "version": "0.0.1",
   "description": "csv2json",
   "main": "index.js",
