@@ -1,0 +1,29 @@
+{
+  "name": "csv2json",
+  "version": "0.0.1",
+  "description": "csv2json",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title",
+    "test2": "node ./index.js ./test/gbk.csv -o ./test/gbk.json -k id,name,age,job,title"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lenny-Hu/csv2json.git"
+  },
+  "keywords": [
+    "csv2json"
+  ],
+  "author": "lennyhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lenny-Hu/csv2json/issues"
+  },
+  "homepage": "https://github.com/Lenny-Hu/csv2json#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "iconv-lite": "^0.6.3",
+    "inquirer": "^9.0.2",
+    "jschardet": "^3.0.0"
+  }
+}
