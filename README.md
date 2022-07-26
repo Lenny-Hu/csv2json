@@ -1,18 +1,35 @@
 # csv2json
-support GBK、 UTF8 format CSV conversion to JSON
+> support GBK、 UTF8 format CSV conversion to JSON
+
+## Installing
+`npm i -g cli-csv2json`
 
 ## usage
 ```
-npm i -g cli-csv2json
-
 cli-csv2json -h // display help
 
-cli-csv2json ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title"
+Usage: csv2json [options] <csvPath>
 
+Convert CSV to json
+
+Arguments:
+  csvPath              csv path
+
+Options:
+  -V, --version        output the version number
+  -o, --out <outPath>  json out path (default: ${pwd}/csv.json)
+  -k, --keys <keys>    the key name of each column (e: id,title,desc)
+  -h, --help           display help for command
 ```
 
 ### example
-`a.csv`
+
+command
+```
+cli-csv2json ./a.csv -o ./a.json -k id,name,age,job,title"
+```
+
+input `a.csv`
 ```
 序号,姓名,年龄,职业,title
 1,张三,19,丐帮,小组长
@@ -21,7 +38,7 @@ cli-csv2json ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title"
 4,秦六,33,少林寺,
 ```
 
-`a.json`
+out `a.json`
 ```
 [
   {

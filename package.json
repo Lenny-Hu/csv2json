@@ -1,11 +1,14 @@
 {
   "name": "cli-csv2json",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "csv2json",
   "main": "index.js",
   "scripts": {
     "test": "node ./index.js ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title",
     "test2": "node ./index.js ./test/gbk.csv -o ./test/gbk.json -k id,name,age,job,title"
+  },
+  "bin": {
+    "cli-csv2json": "index.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +18,7 @@
     "csv2json"
   ],
   "author": "lennyhu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lenny-Hu/csv2json/issues"
   },
