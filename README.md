@@ -8,7 +8,7 @@
 ```
 cli-csv2json -h // display help
 
-Usage: csv2json [options] <csvPath>
+Usage: cli-csv2json [options] <csvPath>
 
 Convert CSV to json
 
