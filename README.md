@@ -1,23 +1,25 @@
 # csv2json
-csv2json，Support GBK、 UTF8 format CSV conversion to JSON
+support GBK、 UTF8 format CSV conversion to JSON
 
 ## usage
 ```
-npm i -g csv2json
+npm i -g cli-csv2json
 
-csv2json -h // display help
+cli-csv2json -h // display help
 
-csv2json ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title"
+cli-csv2json ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title"
 
 ```
 
 ### example
 `a.csv`
+```
 序号,姓名,年龄,职业,title
 1,张三,19,丐帮,小组长
 2,lisi,23,恒山派,堂主
 3,王五,22,华山派,入门弟子
 4,秦六,33,少林寺,
+```
 
 `a.json`
 ```
