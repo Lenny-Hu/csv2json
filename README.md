@@ -17,7 +17,7 @@ Arguments:
 
 Options:
   -V, --version        output the version number
-  -o, --out <outPath>  json out path (default: ${pwd}/csv.json)
+  -o, --out <outPath>  json out path (default: ${cwd}/csv.json)
   -k, --keys <keys>    the key name of each column (e: id,title,desc)
   -h, --help           display help for command
 ```
