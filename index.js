@@ -7,7 +7,7 @@ const package = require('./package.json');
 const csv2json = require('./lib');
 
 program
-  .name('csv2json')
+  .name('cli-csv2json')
   .description('Convert CSV to json')
   .version(`${package.version}`)
   .argument('<csvPath>', 'csv path')
