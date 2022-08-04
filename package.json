@@ -1,6 +1,6 @@
 {
   "name": "cli-csv2json",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "csv2json",
   "main": "index.js",
   "scripts": {

@@ -24,7 +24,7 @@ Options:
 ```
 
 ```
-cli-csv2json ./big.csv -o // Generate big CSV file for testing
+cli-csv2json ./big.csv -g // Generate big CSV file for testing
 ```
 
 ### example
