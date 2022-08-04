@@ -1,5 +1,5 @@
 # csv2json
-> support GBK、 UTF8 format CSV conversion to JSON
+> support GBK、 UTF8 format CSV conversion to JSON,  😄 Even a CSV of 100000 lines can cope.
 
 ## Installing
 `npm i -g cli-csv2json`
@@ -19,7 +19,12 @@ Options:
   -V, --version        output the version number
   -o, --out <outPath>  json out path (default: ${cwd}/csv.json)
   -k, --keys <keys>    the key name of each column (e: id,title,desc)
+  -g, --generate       generate big csv
   -h, --help           display help for command
+```
+
+```
+cli-csv2json ./big.csv -o // Generate big CSV file for testing
 ```
 
 ### example

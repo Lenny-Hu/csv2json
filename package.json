@@ -1,11 +1,13 @@
 {
   "name": "cli-csv2json",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "csv2json",
   "main": "index.js",
   "scripts": {
     "test": "node ./index.js ./test/utf8.csv -o ./test/utf8.json -k id,name,age,job,title",
-    "test2": "node ./index.js ./test/gbk.csv -o ./test/gbk.json -k id,name,age,job,title"
+    "test2": "node ./index.js ./test/gbk.csv -o ./test/gbk.json -k id,name,age,job,title",
+    "test3": "node ./index.js ./test/big.csv -g && node ./index.js ./test/big.csv -o ./test/big.json -k id,name,age,job,title",
+    "gene": "node ./index.js ./test/big.csv -g"
   },
   "bin": {
     "cli-csv2json": "index.js"
@@ -15,7 +17,9 @@
     "url": "git+https://github.com/Lenny-Hu/csv2json.git"
   },
   "keywords": [
-    "csv2json"
+    "csv2json",
+    "csvtojson",
+    "csvtjson"
   ],
   "author": "lennyhu",
   "license": "MIT",
